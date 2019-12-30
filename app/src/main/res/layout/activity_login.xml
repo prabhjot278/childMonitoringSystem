@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".loginActivity">
+
+    <TextView
+        android:id="@+id/lgn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:text="Login"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+
+
+    <EditText
+        android:id="@+id/usrname"
+        android:layout_below="@+id/lgn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/edittext_layout"
+        android:padding="10dp"
+        android:hint="Email"
+        android:textColor="#000"
+        android:textSize="20sp">
+
+    </EditText>
+
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_below="@+id/usrname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:inputType="textPassword"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/edittext_layout"
+        android:padding="10dp"
+        android:hint="Password"
+        android:textColor="#000"
+        android:textSize="20sp" >
+    </EditText>
+
+    <TextView
+        android:id="@+id/showhide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@id/usrname"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="22dp"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:textColor="#000"
+        android:text="show"
+        android:clickable="true"
+        android:layout_alignParentRight="true"
+        android:textStyle="bold"
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/supper23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:padding="10dp"
+        android:visibility="invisible"
+        android:gravity="center"
+        android:text="@string/wrongpass"
+        android:textStyle="bold"
+        android:textSize="10sp"
+        android:textColor="@color/errorred"/>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_layout"
+        android:layout_below="@+id/password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="LOGIN"
+        android:textSize="15sp"
+        android:padding="10dp"
+        android:onClick="yoyologin"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:id="@+id/loginbutton"
+        />
+    <TextView
+        android:id="@+id/sup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/loginbutton"
+        android:visibility="invisible"
+        android:layout_marginRight="10dp"
+        android:padding="10dp"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="@string/signup"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/supper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/sup"
+        android:visibility="invisible"
+        android:layout_marginRight="10dp"
+        android:padding="10dp"
+        android:gravity="center"
+        android:text="@string/lgninfo"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+
+</RelativeLayout>

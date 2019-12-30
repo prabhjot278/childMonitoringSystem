@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".childuser">
+
+    <TextView
+        android:id="@+id/lgn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:text="Enter details of child"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/l123"
+        android:weightSum="1"
+        android:layout_margin="10dp"
+        android:layout_below="@+id/lgn">
+
+    <TextView android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="Username"
+        android:gravity="center"
+        android:layout_weight="0.4"
+        android:textSize="20sp"
+        android:textColor="#000"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/username_text_input_layout3456"
+        app:passwordToggleEnabled="true"
+        app:hintTextAppearance="@style/HintText"
+        android:layout_width="0dp"
+        android:layout_below="@+id/lgn"
+        android:layout_weight="0.6"
+        android:layout_height="wrap_content">
+    <EditText
+        android:id="@+id/user3123"
+        android:layout_below="@+id/lgn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:padding="10dp"
+        android:hint="Username"
+        android:textColor="#000"
+        android:textSize="20sp"/>
+</android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+
+
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/l1234"
+        android:weightSum="1"
+        android:layout_margin="10dp"
+        android:layout_below="@+id/l123">
+
+        <TextView android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="Age"
+            android:gravity="center"
+            android:layout_weight="0.4"
+            android:textSize="20sp"
+            android:textColor="#000"/>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/age3123"
+        app:passwordToggleEnabled="true"
+        app:hintTextAppearance="@style/HintText"
+        android:layout_width="0dp"
+        android:layout_weight="0.8"
+        android:layout_height="wrap_content">
+    <EditText
+        android:id="@+id/age_of_the_kid"
+        android:layout_below="@+id/usrname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:inputType="number"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="10dp"
+        android:hint="age"
+        android:maxLength="3"
+        android:textColor="#000"
+        android:textSize="20sp" >
+    </EditText>
+    </android.support.design.widget.TextInputLayout>
+
+    </LinearLayout>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_layout"
+        android:layout_below="@+id/l1234"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Start"
+        android:textSize="15sp"
+        android:padding="10dp"
+        android:onClick="finishsetup"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:id="@+id/signingup"
+        />
+
+</RelativeLayout>

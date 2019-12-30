@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/caller_name"
+        android:text="name"
+        android:textSize="25dp"
+        android:textColor="@color/maincolor"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:textAppearance="?attr/textAppearanceListItem" />
+    <TextView
+        android:id="@+id/caller_directory"
+        android:text="directory"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:layout_below="@id/caller_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textAppearance="?attr/textAppearanceListItem" />
+    <TextView
+        android:id="@+id/caller_num"
+        android:layout_below="@id/caller_directory"
+        android:textSize="16dp"
+        android:text="phone number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?attr/textAppearanceListItem" />
+
+    <TextView
+        android:id="@+id/caller_duration"
+        android:text="duration"
+        android:textSize="16dp"
+        android:layout_below="@id/caller_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textAppearance="?attr/textAppearanceListItem" />
+
+
+    <TextView
+        android:id="@+id/caller_date"
+        android:text="date"
+        android:textSize="16dp"
+        android:layout_below="@id/caller_num"
+        android:layout_toRightOf="@id/caller_duration"
+        android:layout_width="wrap_content"
+        android:textColor="@color/maincolor"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textAppearance="?attr/textAppearanceListItem" />
+
+</RelativeLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Location"
+            android:icon="@drawable/ic_location_on_black_24dp"
+            android:title="Location" />
+        <item
+            android:id="@+id/nav_calls"
+            android:icon="@drawable/ic_call_black_24dp"
+            android:title="Call Logs" />
+        <item
+            android:id="@+id/nav_usage"
+            android:icon="@drawable/ic_apps_black_24dp"
+            android:title="App usage" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_message_black_24dp"
+            android:title="Urgent Messages" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>

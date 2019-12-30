@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "292228168488",
+    "firebase_url": "https://pschildmonitoringsystem.firebaseio.com",
+    "project_id": "pschildmonitoringsystem",
+    "storage_bucket": "pschildmonitoringsystem.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:292228168488:android:e257c9571224b07c",
+        "android_client_info": {
+          "package_name": "com.prabhjot.pschildmonitoringsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "292228168488-k2rm100tjcdgeg9jdh509ccvakpr2sgm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.prabhjot.pschildmonitoringsystem",
+            "certificate_hash": "27907daa8f1208690ea1677a26a6780dff22b89b"
+          }
+        },
+        {
+          "client_id": "292228168488-tqhb4j0a5d33l8g9vs6piha3928ua8k2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJ8KgEebUX6Br6vwhTscTunw6yjFZ7gEs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "292228168488-tqhb4j0a5d33l8g9vs6piha3928ua8k2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
